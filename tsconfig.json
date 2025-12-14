@@ -1,0 +1,83 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "ES2021",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "incremental": true,
+    "skipLibCheck": true,
+    "strictNullChecks": true,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitAny": false,
+    "strictBindCallApply": false,
+    "noFallthroughCasesInSwitch": false,
+    "baseUrl": "./src",
+    "paths": {
+      "@core/*": [
+        "core/*"
+      ],
+      "@features/*": [
+        "features/*"
+      ],
+      "@shared/*": [
+        "shared/*"
+      ],
+      "@auth/*": [
+        "core/auth/*"
+      ],
+      "@database/*": [
+        "core/database/*"
+      ],
+      "@cache/*": [
+        "core/cache/*"
+      ],
+      "@elastic/*": [
+        "core/elastic/*"
+      ],
+      "@middleware/*": [
+        "core/middleware/*"
+      ],
+      "@config/*": [
+        "core/config/*"
+      ],
+      "@logger/*": [
+        "core/logger/*"
+      ],
+      "@user/*": [
+        "features/user/*"
+      ],
+      "@news/*": [
+        "features/news/*"
+      ],
+      "@crypto/*": [
+        "features/crypto/*"
+      ],
+      "@gateway/*": [
+        "features/gateway/*"
+      ],
+      "@cms/*": [
+        "features/cms/*"
+      ],
+      "@utils/*": [
+        "shared/utils/*"
+      ],
+      "@constants/*": [
+        "shared/constants/*"
+      ],
+      "@decorators/*": [
+        "shared/decorators/*"
+      ],
+      "@dto/*": [
+        "shared/dto/*"
+      ],
+      "@filters/*": [
+        "shared/filters/*"
+      ]
+    }
+  }
+}
